@@ -8,6 +8,8 @@
 
     .text-zone {
         display:flex;
+        flex-direction: column;
+        padding-top: 5px;
         align-items: center;
         margin-top: 15vh;
     }
@@ -15,7 +17,7 @@
     p {
         display: flex;
         color: white;
-        width: 20vw;
+        width: 60vw;
         padding: 20px;
         font-size: 1.5rem;
         
