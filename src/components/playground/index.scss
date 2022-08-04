@@ -13,23 +13,23 @@
 }
 
 .animated-bg-text {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20vh;
-  letter-spacing: 1vw;
-  position: absolute;
-  top: 15vh;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  background:url('https://www.futurity.org/wp/wp-content/uploads/2021/03/squid-skin-color-camouflage-1600.jpg');
-   background-size: auto 200%;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 8s linear infinite;
-  &:nth-child(2) {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20vh;
+    letter-spacing: 1vw;
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background:url('https://www.futurity.org/wp/wp-content/uploads/2021/03/squid-skin-color-camouflage-1600.jpg');
+    background-size: auto 200%;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 8s linear infinite;
+    &:nth-child(2) {
     top: 50vh;
   }
   @keyframes shine {
