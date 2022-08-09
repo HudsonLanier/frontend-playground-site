@@ -4,11 +4,13 @@ import Sidebar from '../sidebar';
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAdversal } from '@fortawesome/free-brands-svg-icons';
+import Menu from '../menu/menu';
 
 const Layout = () => {
     return (
         <div className='App'>
-            <Sidebar />
+            {/* <Sidebar /> */}
+            <Menu />
             <div className='page'>
                 <span className='tags top-tags'>
                 <FontAwesomeIcon icon={faAsterisk}  /> 
