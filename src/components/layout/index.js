@@ -9,7 +9,6 @@ import Menu from '../menu/menu';
 const Layout = () => {
     return (
         <div className='App'>
-            {/* <Sidebar /> */}
             <Menu />
             <div className='page'>
                 <span className='tags top-tags'>

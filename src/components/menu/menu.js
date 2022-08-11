@@ -7,7 +7,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Menu = () => (
     <header>
-        <h1 class="logo">Logo</h1>
+        <h1 class="logo">XSW</h1>
         <input type="checkbox" class="nav-toggle" id="nav-toggle"></input>
         <nav class="navbar"> 
             <ul>
