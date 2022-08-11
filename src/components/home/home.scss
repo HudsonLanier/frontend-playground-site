@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
+  font-size: 2.6em;
   z-index: 100;
 
   h1 {
@@ -32,6 +33,7 @@
   color: white;
   height: 30vh;
   width: 60vw;
+  font-size: 1.3em;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -69,12 +71,12 @@ body{
   bottom: 0;
   right: 0;
   background-image: 
-  radial-gradient(4px 4px at 100px 50px, rgb(114, 47, 221) , transparent), 
+  radial-gradient(400px 400px at 100px 50px, rgb(114, 47, 221, .1) , transparent), 
   radial-gradient(6px 6px at 200px 150px, rgb(113, 216, 230, .2), transparent), 
   radial-gradient(3px 3px at 300px 250px, rgb(170, 228, 189, .6) 50%, transparent), 
   radial-gradient(4px 4px at 400px 350px, rgb(228, 147, 231) 50%, transparent), 
   radial-gradient(6px 6px at 500px 100px, rgb(180, 184, 230) 50%, transparent), 
-  radial-gradient(3px 3px at 50px 200px, rgb(180, 241, 243) 50%, transparent), 
+  radial-gradient(300px 300px at 50px 200px, rgb(180, 241, 243, .3) 50%, transparent), 
   radial-gradient(4px 4px at 150px 300px, rgb(153, 143, 190) 50%, transparent), 
   radial-gradient(6px 30px at 250px 400px, rgb(228, 89, 8, .3) 50%, transparent), 
   radial-gradient(30px 3px at 350px 500px, rgb(8, 103, 133, .7) 50%, transparent);
@@ -87,7 +89,7 @@ body{
   margin-left: -250px;
   opacity: 0.5;
   filter: blur(2px);
-  animation-duration: 200s;
+  animation-duration: 2s;
   animation-direction: reverse;
 }
 
