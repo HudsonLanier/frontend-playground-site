@@ -1,5 +1,6 @@
 import './index.scss';
 
+
 const Playground = () => {
     return (
         <div className='container playground-page'>
@@ -7,6 +8,7 @@ const Playground = () => {
                 <h1 className='animated-bg-text'>FRONTEND</h1>
                 <h1 className='animated-bg-text'>PLAYGROUND</h1>
             </div>
+           
         </div>
     )
 }
