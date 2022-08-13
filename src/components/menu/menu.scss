@@ -1,6 +1,6 @@
 header {
 width: 100%;
-background: #0081C2;
+background: black;
 text-align: center; 
 position: fixed;
 opacity: .8;
@@ -11,7 +11,7 @@ z-index: 101;
 width: 100%;
 position: absolute;
 text-align: center;
-background-color: #0081C2;
+background-color: black;
 transition: transform 400ms ease-in-out;
 transform: scale(1,0);
 transform-origin: top;
@@ -28,7 +28,7 @@ margin-bottom: 1rem;
 }
 
 .navbar a {
-color: black;
+color: white;
 text-decoration: none; 
 font-size: 1rem;
 text-transform: uppercase;
